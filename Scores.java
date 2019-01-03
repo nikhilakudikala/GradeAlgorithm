@@ -18,7 +18,7 @@ public class Scores {
 		scores.add(47);
 		scores.add(41);
 		
-		System.out.println(atheniumGrading(scores));
+		System.out.println(scoreGrading(scores));
 	}
 
 	public static char getGrade(char grade) {
@@ -305,7 +305,7 @@ public class Scores {
 		return scoresWithGradesList;
 	}
 
-	public static List<Map<Integer, String>> atheniumGrading(List<Integer> scores) {
+	public static List<Map<Integer, String>> scoreGrading(List<Integer> scores) {
 		// your code here
 
 		char grade = 'A';
